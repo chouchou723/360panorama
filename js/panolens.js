@@ -2403,7 +2403,7 @@ GSVPANO.PanoLoader = function (parameters) {
      * Data Image Source
      * @type {String}
      */
-    PANOLENS.DataImageSource = 'https://pchen66.github.io/Panolens/asset/icon/';
+    PANOLENS.DataImageSource = 'https://chouchou723.github.io/360panorama/asset/icon/';
 
     /**
      * Data Image
@@ -2709,11 +2709,7 @@ GSVPANO.PanoLoader = function (parameters) {
 
 	};
 
-})();;/**
- * Stereographic projection shader
- * based on http://notlion.github.io/streetview-stereographic
- * @author pchen66
- */
+})();;
 
 PANOLENS.StereographicShader = {
 
