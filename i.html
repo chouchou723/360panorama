@@ -32,14 +32,14 @@
     ChouChou's panolens</div>
     </span>
     
-    <script src="Three.js"></script>
-    <script src="panolens.js"></script>
+    <script src="js/Three.js"></script>
+    <script src="js/panolens.js"></script>
 
     <script>
 
       var panorama, viewer;
 
-      panorama = new PANOLENS.ImagePanorama( 'cc.jpg' );
+      panorama = new PANOLENS.ImagePanorama( 'img/cc.jpg' );
 
       viewer = new PANOLENS.Viewer( { output: 'console' } );
       viewer.add( panorama );
